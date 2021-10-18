@@ -1,0 +1,18 @@
+
+.parent1{
+    color: blue; background-color: aqua; border: 10px solid gray; padding: 10px; margin: 10px;
+}
+.child1{ border: 20px double black; padding: 0px 0px 0px 30%; margin: 10px;
+}
+.parent2{
+    color:yellow; background-color: gray; border: 20px double blue; padding: 20px; margin: 5px;
+    }
+.child2{
+    border: 10px solid black; padding: 10px 20px 10px 50px; margin: 10px 40px 80px;
+}
+.parent3{border: 10px solid deeppink; margin: 20px; padding: 0px 0px 0px 30px;}
+.child3{padding: 50px; margin: 10px;}
+.image{border: 10px solid black; padding: 10px 50px 20px 50px; margin: 50px;}
+.picture{
+    border: 20px double blue; margin: 50px;
+}

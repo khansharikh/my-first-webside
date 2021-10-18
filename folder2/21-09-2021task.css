@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mdiv{
+
+    width: 25%;
+    height: auto;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20%;
+    
+    
+}
+ .mdiv form{
+    padding: 20px;
+    background-color: cadetblue;
+    border-radius: 30px;
+
+}
+.input{
+    padding: 10px;
+
+}
+.input input{
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+}
+#butn{
+    width: 165px;
+    background-color: rgb(76, 0, 255);
+    color: white;
+
+}
+.fb{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 100%;
+    position: relative;
+    bottom: 30px;
+    left: 70px;
+    
+}
+.fb p{
+    padding: 5px;
+}
+.google{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 100%;
+    position: relative;
+    bottom: 75px;
+    left: 140px;
+    
+}
+.google p{
+    padding: 5px;
+}
+
+.twitter{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 100%;
+    position: relative;
+    bottom: 120px;
+    left: 210px;
+    
+}
+.twitter p{
+    padding: 5px;
+}
+body{
+    background-color: rgb(100, 5, 5);
+}

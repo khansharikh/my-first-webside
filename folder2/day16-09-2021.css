@@ -1,0 +1,16 @@
+.parent1{
+    
+    
+    border: 50px double chartreuse;
+    padding: 10px 20px 30ox 40px;
+    margin: 100px;
+    background-color: gray;
+}
+.child1{
+border: 10px black solid;
+padding: 25px;
+margin: 50px 100px 30px 40px;
+background-color:maroon;
+color: white;
+text-align: center;
+}

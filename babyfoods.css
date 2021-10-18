@@ -1,0 +1,57 @@
+.navbar{
+    background-color: #440099!important;
+    height: 55px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar .dropdown {
+    position: absolute;
+}
+.navbar .dropdown {
+    display: none;
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar li:hover .dropdown{
+    display: block;
+    height: 300px;
+    width: 200px;
+    text-align: start;
+    border: 1px solid white ;
+    background-color: white; 
+    z-index: +1;
+
+}
+.navbar .dropdown a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    margin-left: -25px;
+    color:black;
+    
+}
+.navbar .nav-link {
+margin: 0px 5px 0px 5px;
+color: white !important;
+}
+.navbar button{
+    background-color: rgb(255,252,242);
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: top 10px;
+    margin-top: 8px!important;
+}
+.information .Free{
+display: inline-block;
+margin: 10px;
+}
+.information .Free a button{
+    background-color: green;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+}

@@ -1,0 +1,104 @@
+body{
+    background-image: url(/images/rohan.jpg);
+    width: 100%;
+    height: 600px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+}
+.maindiv1{
+    background-color: rgba(0, 255, 255, 0.192);
+    width: 100%;
+    height: 700px;
+    border: black solid 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subdiv1{
+    background-color: rgba(235, 18, 18, 0);
+    width: 50%;
+    height: 200px;
+    border: blanchedalmond solid 5px;
+    border-radius: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: black 5px 10px;
+    margin right: 10px;
+    
+    
+}
+.subdiv2{
+    background-color: rgba(184, 135, 11, 0.24);
+    width: 50%;
+    height: 200px;
+    border: darkgreen double 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: black -5px -10px;
+}
+.subdiv3{
+    background-color: khaki;
+    width: 50%;
+    height: 200px;
+    border-radius: 0px 0px 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maindiv2{
+    background-color: rgba(220, 20, 60, 0.11);
+    border: black double 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subdivA{
+    border: rgba(0, 255, 0, 0.199) solid 15px;
+    border-radius: 20px 30px;
+    margin: 50px;
+    padding: 50px;
+}
+.subdivB{
+    border: rgba(0, 47, 255, 0.247) solid 15px;
+    border-radius: 20px 30px;
+    margin: 50px;
+    padding: 50px;
+}
+.blank{
+    background-color: rgba(147, 112, 216, 0.151);
+    width: 1000px;
+    height: 1000px;
+    border:black solid 5px;
+    border-radius: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.blank1{
+    background-color: rgba(128, 0, 0, 0.212);
+    width: 600px;
+    height: 600px;
+    border: white solid 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.blank2{
+    background-color: rgba(128, 128, 128, 0.178);
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

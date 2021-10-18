@@ -1,0 +1,252 @@
+.navbar{
+    background-color: #440099!important;
+    height: 55px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar .dropdown {
+    position: absolute;
+}
+.navbar .dropdown {
+    display: none;
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar li:hover .dropdown{
+    display: block;
+    height: 300px;
+    width: 200px;
+    text-align: start;
+    border: 1px solid white ;
+    background-color: white; 
+    z-index: +1;
+
+}
+.navbar .dropdown a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    margin-left: -25px;
+    color:black;
+    
+}
+.navbar .nav-link {
+margin: 0px 5px 0px 5px;
+color: white !important;
+}
+.navbar button{
+    background-color: rgb(255,252,242);
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: top 10px;
+    margin-top: 8px!important;
+}
+#baby{
+    height: 90px !important;
+}
+#grocery{
+    height: 200px;
+}
+#homecare{
+    height: 200px;
+}
+.carousel-item{
+    height: 600px !important;
+}
+
+.nav .asidebar{
+    background-color:rgb(72,76,163);
+    width: 250px;
+    height: 700px;
+    border: 2px solid rgb(72,76,163);
+    
+}
+.nav .nav-link{
+    color: black;
+}
+.nav p{
+    font-size: 12px;
+}
+.nav input{
+    height: 30px;
+}
+.nav .mymarketlogo{
+    position: absolute;
+    margin-left: 300px ;
+}
+.nav .my{
+    position: absolute;
+    margin-left:300px ;
+}
+@media screen and (max-width:600px){
+    .nav{
+        height: 1500px;
+    }
+    .my img{
+        width: 150px;
+    }
+    .carousel-item img{
+        height: 200px !important;
+    }
+    .cashback img{
+        width: 400px;
+        height: 200px;
+
+    }
+    
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    .my img{
+        width: 200px;
+    }
+    .cashback img{
+        width: 500px;
+        height: 300px;
+
+    }
+}
+.nav b{
+    font-size: x-large;
+    font-family: cursive;
+    color: orange;
+}
+.asidebar p{
+    margin-top: 15px;
+}
+.my  p{
+font-size: medium;
+}
+.carousel-item img{
+height: 570px;
+margin-top: 5px;
+}
+.add div{
+display: inline-block;
+margin: 10px;
+}
+.add{
+margin-left: 40px;
+}
+.add .add-1 img{
+border-radius: 50px;
+padding: 50px;
+transition: transform .2s; /* Animation */
+width: 400px;
+height: 400px;
+margin: 0 auto;
+}
+.heading h1{
+text-align: center;
+padding: 20px;
+}
+.card-group .card{
+margin: 20px;
+padding: 20px;
+box-shadow: 5px 5px 5px 5px rgb(156, 211, 211);
+
+}
+.card-body h5{
+    text-align: center;
+}
+.information{
+    background-color: #440099 ;
+}
+.information h5{
+    text-align: center;
+    color: white;
+}
+.cashback{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    margin-left: 25px;
+}
+.container .Free{
+display: inline-block;
+border: 1px solid white;
+margin: 20px;
+    
+}
+.container a{
+    color: green;
+}
+.add .add-1:hover img{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.navbar-nav .navbar .dropdown:hover{
+    background-color: lightblue;
+}
+.navbar-nav .navbar .dropdown:hover #A{
+    color: black;
+    width: 180px;
+    height: 30px;
+}
+.navbar-nav .navbar .dropdown:hover #B{
+    color: black;
+    width: 180px;
+    height: 30px;
+}
+.navbar-nav .navbar .dropdown:hover #C{
+    color:black;
+    width: 180px;
+    height: 30px;
+}
+.navbar-nav .navbar .dropdown:hover #D{
+    color: black;
+    width: 180px;
+    height: 30px;
+}
+.navbar-nav .navbar .dropdown:hover #E{
+   
+    color: black;
+    width: 180px;
+    height: 30px;
+}
+.navbar-nav .navbar .dropdown:hover #F{
+    
+    color: black;
+    width: 180px;
+    height: 30px;
+}
+.navbar-nav .navbar .dropdown:hover #G{
+    color:black;
+    width: 180px;
+    height: 30px;
+}
+footer .table td{
+    list-style: none;
+    color: white;
+    text-align: left;
+}
+footer{
+    background-color:#440099  ;
+}
+footer .table th{
+    color: white;
+    text-align: left;
+}
+footer h4{
+    color: white;
+    text-align: center;
+}
+footer{
+    position: relative;
+    bottom: 0;
+
+}
+footer{
+    font-size: small;
+}
+.searchbar input{
+    height: 40px;
+}
+.searchbar button{
+    position: absolute;
+    left: 230px;
+}

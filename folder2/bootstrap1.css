@@ -1,0 +1,21 @@
+.header{
+    background-color: white !important;
+    height: 100px !important;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    
+}
+.navbar li:hover .dropdown{
+    display: block;
+padding: 10px;
+}
+.dropdown li{
+    display: inline;
+    margin: 5px;
+}
+.dropdown2{
+    position: absolute;
+    display: none;
+}

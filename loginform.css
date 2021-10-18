@@ -1,0 +1,57 @@
+.mb-3 {
+    width: 500px;
+}
+.btn-primary{
+   position: absolute;
+   left: 200px;
+}
+form{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.navbar{
+    background-color: #440099!important;
+    height: 55px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar .dropdown {
+    position: absolute;
+}
+.navbar .dropdown {
+    display: none;
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar li:hover .dropdown{
+    display: block;
+    height: 300px;
+    width: 200px;
+    text-align: start;
+    border: 1px solid white ;
+    background-color: white; 
+    z-index: +1;
+
+}
+.navbar .dropdown a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    margin-left: -25px;
+    color:black;
+    
+}
+.navbar .nav-link {
+margin: 0px 10px 0px 10px;
+color: white !important;
+}
+.asidebar{
+    background-color:rgb(72,76,163);
+    width: 250px;
+    height: 700px;
+    border: 2px solid rgb(72,76,163);
+    
+}

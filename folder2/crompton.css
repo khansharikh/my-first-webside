@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.image1{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.div1{
+    background-color: rgb(0,77,141);
+    width: 100%;
+    height: 60px;
+}
+.subdiv1{
+ display: flex;   
+ justify-content: center;
+ position: absolute;
+ top: 15px;
+ left: 300px;
+}
+.subdiv1 a{
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.subdiv1 select{
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    background-color: rgb(0,77,141);
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.subdiv1 select:hover{
+    background-color: rgb(17, 51, 75);
+    
+}
+.subdiv1 a:hover{
+   background-color:  rgb(17, 51, 75);
+}
+.vl{
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    right: 190px;
+}
+.subdiv2{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+.subdiv2 img{
+    margin: 3px;
+}
+.div2{
+    position: absolute;
+    top: 60px;
+}
+.div3{
+    position: absolute;
+    top: 660px;
+    left: 480px;
+}
+h1{
+    padding: 20px;
+    font-weight: 300;
+    font-size: 40px;
+}
+.div4{
+    position: absolute;
+    top: 800px;
+    display: flex;
+   
+}
+.subdiv4{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+h3{
+    margin: 20px;
+}
+.subdiv4:hover{
+box-shadow: gray 10PX 10PX 20PX 40PX
+;
+}
+.div5{
+background-color:rgb(0,77,141) ;
+position: absolute;
+top: 1400px;
+
+display: flex;
+}
+.subdiv5{
+    margin: 60px;
+    padding: 20px;
+    color: white;
+}
+.subdiv5 a{
+    text-decoration: none;
+    color: white;
+}
